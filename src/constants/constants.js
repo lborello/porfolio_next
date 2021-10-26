@@ -53,6 +53,15 @@ export const projects = [
     visit: 'https://forum.xda-developers.com/t/c-apps-v2-unofficial-6-0-x-cyanogen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/',
     id: 3,
   },
+  {
+    title: 'CyanogenOS Apps',
+    description: "CyanogenOS 12.1 had a set of exclusive apps like a new theme engine and a new Truecaller integrated dialer. I ported it to work with CyanogenMod 13 and CM 13 based ROMs.",
+    image: '/images/capps.jpg',
+    tags: ['Java', 'Libs'],
+    source: '#',
+    visit: 'https://forum.xda-developers.com/t/c-apps-v2-unofficial-6-0-x-cyanogen-os-capps-v2-for-cm13-and-cm13-based-roms.3254865/',
+    id: 4,
+  },
 
 ];
 

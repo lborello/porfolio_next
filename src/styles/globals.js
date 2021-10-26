@@ -31,6 +31,14 @@ const GlobalStyles = createGlobalStyle`
   li{
     list-style: none;
   }
+  .aboutImage {
+  max-width: 100px;
+  max-height: 100px;
+  border-radius: 50%;
+  /* display: block; */
+  margin-left: auto;
+  margin-right: auto;
+}
 
 `;
 

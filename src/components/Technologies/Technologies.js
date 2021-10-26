@@ -1,5 +1,5 @@
 import React from "react";
-import { Section, SectionDivider, SectionText, SectionTitle, } from "../../styles/GlobalComponents";
+import { Section, SectionDivider, SectionText, SectionTitle, SkillsValue } from "../../styles/GlobalComponents";
 import { List, ListContainer, ListItem, ListParagraph, ListTitle, } from "./TechnologiesStyles";
 import { Skills } from './Skills'
 
@@ -18,6 +18,7 @@ const Technologies = () => (
           </picture>
           <ListContainer>
             <ListTitle>{Skill.title}</ListTitle>
+            <SkillsValue colorAlt={false} value={ Skill.value} />
             <ListParagraph>
               <Skill.Description />
             </ListParagraph>
@@ -26,6 +27,7 @@ const Technologies = () => (
       ))}
     </List>
     <SectionDivider colorAlt />
+    
   </Section>
 );
 

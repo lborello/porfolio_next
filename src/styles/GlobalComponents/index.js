@@ -25,6 +25,11 @@ export const Section = styled.section`
 `
 
 export const SectionTitle = styled.h2`
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
   font-weight: 800;
   font-size: ${(props) => props.main ? '65px' : '56px'};
   line-height: ${(props) => props.main ? '72px' : '67px'};
@@ -73,6 +78,35 @@ export const SectionText = styled.p`
     font-size: 16px;
     line-height: 24px;
     padding-bottom: 16px;
+  }
+`
+
+
+
+
+export const SkillsValue = styled.div`
+
+  width: ${(props) => props.value ? (props.value * 250 / 100) + 'px' : 250 + 'px'};
+  height: 6px;
+  border-radius: 10px;
+  /* background-color: #fff; */
+  background-color: red;
+  background: ${(props) => props.colorAlt ?
+    'linear-gradient(270deg, #F46737 0%, #945DD6 100%)' :
+    'linear-gradient(270deg, #13ADC7 0%, #945DD6 100%)'};
+
+    margin: ${(props) => props.divider ? "4rem 0" : ""};
+
+  @media ${(props) => props.theme.breakpoints.md} {
+    /* width: 48px; */
+    width: ${(props) => props.value ? (props.value * 250 / 100) + 'px' : 250 + 'px'};
+    height: 4px;
+  }
+
+  @media ${(props) => props.theme.breakpoints.sm} {
+    /* width: 32px; */
+    width: ${(props) => props.value ? (props.value * 250 / 100) + 'px' : 250 + 'px'};
+    height: 2px;
   }
 `
 

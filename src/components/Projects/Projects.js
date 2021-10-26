@@ -13,10 +13,8 @@ const Projects = () => (
         return (
           <BlogCard key={i}>
             <Img src={p.image} />
-
-            <HeaderThree title={p.title}>{p.title}</HeaderThree>
+            <HeaderThree title= {p.title}>{p.title} </HeaderThree>
             <Hr />
-
             <CardInfo className="card-info">{p.description}</CardInfo>
             <div>
               <TitleContent>Tech Stack</TitleContent>
