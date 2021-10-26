@@ -2,7 +2,7 @@ export const projects = [
   {
     title: 'Covid-19 Status App',
     description: "COVID-19 Status is a free, open-source Android application that shows the current state of COVID-19 in India and the world. It has a beautiful, simple, fast, and responsive UI.",
-    image: '/images/covid.jpg',
+    image: 'images/covid.jpg',
     tags: ['Java', 'XML', 'Firebase', 'Rest API'],
     source: 'https://github.com/Coders-Of-XDA-OT/covid19-status-android',
     visit: 'https://project.vipuljha.com/covid/',
@@ -11,7 +11,7 @@ export const projects = [
   {
     title: 'Portfolio Website',
     description: "This was my personal portfolio website that has all my work and project experience, including my resume. It used to be my main portfolio before deploying this current portfolio.",
-    image: '/images/portfolio.jpg',
+    image: 'images/portfolio.jpg',
     tags: ['HTML', 'CSS', 'Bootstrap', 'JQuery'],
     source: 'https://github.com/lordarcadius/website',
     visit: 'https://project.vipuljha.com/website/',
@@ -20,7 +20,7 @@ export const projects = [
   {
     title: 'ABS Tweaks',
     description: "ABS Tweaks or Arkaynine Boost Script is a collection of shell scripts written with the aim of enhancing the performance and battery life of an Android phone. It got 2 Lac+ downloads overall.",
-    image: '/images/abs.jpg',
+    image: 'images/abs.jpg',
     tags: ['Shell', 'Busybox'],
     source: 'https://github.com/lordarcadius/ABS-Tweaks',
     visit: 'https://forum.xda-developers.com/t/tweak-mod-arm-x86-project-dark-booster-abs-tweaks-v5-0-2-3-6-0-23-01-2016.3120404/',
