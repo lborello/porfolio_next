@@ -17,6 +17,8 @@ A portfolio built in React and NextJS. Simple, clean and fast.
 
 [Live Preview](https://www.vipuljha.com)
 
+
+
 ## Run Project 
 
 Run this project with Yarn
