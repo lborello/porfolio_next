@@ -1,17 +1,19 @@
 import { DiAndroid, DiTerminal } from "react-icons/di";
-import { SiJava, SiFirebase, SiGit } from "react-icons/si";
+import { SiJava, SiFirebase, SiGit, SiStrapi, SiGraphql, SiNextdotjs, SiPostman, SiTrello} from "react-icons/si";
 import { RiFlutterFill } from "react-icons/ri";
+import { FaNodeJs } from "react-icons/fa";
 
+// Buscar los iconos https://react-icons.github.io/react-icons/
 export const Skills = [
   {
-    slug: "android",
-    Component: DiAndroid,
-    title: "Android",
+    slug: "Next",
+    Component: SiNextdotjs,
+    title: "Next",
     Description: () => <>I work on ROMs, Kernels & Android Apps using Java.</>,
     value:50,
   },
   {
-    slug: "flutter",
+    slug: "Gatsby",
     Component: RiFlutterFill,
     title: "Flutter",
     Description: () => <>Currently working with Dart & Flutter for app development. </>,
@@ -53,3 +55,48 @@ export const Skills = [
     value: 10,
   },
 ];
+
+export const SkillsBackEnd = [
+  {
+    slug: "Node",
+    Component: FaNodeJs,
+    title: "Node",
+    Description: () => <>He trabajado con Node usando Librerias como bcrypt , express-validator , jsonwebtoken , multer </>,
+    value: 50,
+  },
+  {
+    slug: "Strapi",
+    Component: SiStrapi,
+    title: "Strapi",
+    Description: () => <>Currently working with Dart & Flutter for app development. </>,
+    value: 20,
+  },
+  {
+    slug: "GraphQL",
+    Component: SiGraphql,
+    title: "GraphQL",
+    Description: () => <>Currently working with Dart & Flutter for app development. </>,
+    value: 40,
+  },
+  {
+    slug: "Postman",
+    Component: SiPostman,
+    title: "Postman",
+    Description: () => <> He trabajado durante 4 años </>,
+    value: 80,
+  },
+
+
+];
+
+export const SkillsColaboration = [
+  {
+    slug: "Trello",
+    Component: SiTrello,
+    title: "Trello",
+    Description: () => <>He trabajado con Node usando Librerias como bcrypt , express-validator , jsonwebtoken </>,
+    value: 50,
+  },
+  
+];
+
